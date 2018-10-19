@@ -17,7 +17,7 @@ public class Ejercicio10 {
 		int cont;
 		for (int i = 0; i < num1; i++) {
 			if (i % num1 == 1) {
-				cont++;
+			
 			}
 		}
 	}
