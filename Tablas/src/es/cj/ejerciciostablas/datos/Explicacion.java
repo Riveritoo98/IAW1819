@@ -66,6 +66,11 @@ public class Explicacion {
 		
 		Arrays.fill(numeros, 99);
 		System.out.println(Arrays.toString(numeros));
+		
+		int [] auxiliar = Arrays.copyOfRange(numeros, 0, 5);
+		System.out.println(Arrays.toString(auxiliar));
+		
+		
 	}
 
 }
